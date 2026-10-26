@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Аренда строительного инструмента в Ставрополе</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Аренда строительного инструмента в Ставрополе</h1>
+      <p>Более 180 позиций: от шуруповёрта до виброплиты. Цены указаны за сутки.</p>
+      <!-- КОНТАКТЫ: чтобы поменять телефон, измените href (только цифры) и текст кнопки -->
+      <div class="calls">
+        <a class="call" href="tel:+78903417985">Позвонить: 8903417985</a>
+        <a class="call" href="tel:+79054683173">Позвонить: 8 905 468-31-73</a>
+      </div>
+      <p class="addr">📍 Ставрополь, ул. 50 лет ВЛКСМ, 52/1</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="tools">
+      <input id="search" type="search" placeholder="Поиск по названию, например «болгарка»" aria-label="Поиск инструмента">
+      <div id="filters" class="filters" role="group" aria-label="Категории"></div>
+    </div>
+    <p id="count" class="count"></p>
+    <section id="catalog" class="grid"></section>
+    <p id="empty" class="empty" hidden>Ничего не найдено. Измените запрос или выберите другую категорию.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Ставрополь, ул. 50 лет ВЛКСМ, 52/1</p>
+    <p>Телефоны: <a href="tel:+78903417985">8903417985</a>, <a href="tel:+79054683173">8 905 468-31-73</a></p>
+    <p>Цены в рублях за сутки аренды. Уточняйте наличие по телефону.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
